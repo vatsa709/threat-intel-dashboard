@@ -20,3 +20,23 @@ python3 threat_collector.py
 
 # Start the dashboard
 python3 app.py
+
+## 🔑 API Setup
+
+This project relies on data from APIs such as VirusTotal, Shodan, AbuseIPDB, OTX, etc.
+
+### Step 1: Create `config.json`
+
+In the root of the project, create a file named `config.json`:
+
+```json
+{
+    "api_keys": {
+        "virustotal": "YOUR_VT_API_KEY",
+        "otx": "YOUR_OTX_API_KEY", 
+        "shodan": "YOUR_SHODAN_API_KEY",
+        "abuseipdb": "YOUR_ABUSEIPDB_API_KEY"
+    }
+}
+
+
