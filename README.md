@@ -9,7 +9,7 @@ A Python‑based dashboard that automates the collection of threat intelligence 
 ## 🎯 Motivation & Value
 
 * **Why every 3 days?**
-  Zero‑day exploits are weaponized within 2–3 weeks, but many organizations lag on patching. By refreshing data every 72 hours, your security team gains early warning of new CVEs, IOCs, and threat reports—so you can triage and remediate faster.
+  Newly disclosed vulnerabilities are weaponized within 2–3 weeks, but many organizations lag on patching. By refreshing data every 72 hours, your security team gains early warning of new CVEs, IOCs, and threat reports—so you can triage and remediate faster.
 
 * **Business Impact:**
 
